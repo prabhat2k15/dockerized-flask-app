@@ -6,7 +6,7 @@ api = Api(app)
 
 class HelloWorld(Resource):
     def get(self):
-        dict = {'status':200, 'message':'Success'}
+        dict = {'status':200, 'message':'Successful'}
         return dict
 class GetMessageByID(Resource):
     def get(self, id):
